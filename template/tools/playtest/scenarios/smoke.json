@@ -1,0 +1,28 @@
+{
+  "name": "smoke",
+  "description": "Start Play, wait for both Main scripts to say they're ready, let the systems run, collect errors from our scripts, stop Play.",
+  "steps": [
+    { "op": "check_edit_mode", "why": "Refuse to take over a Play session someone else started" },
+    { "op": "start_play" },
+    {
+      "op": "wait_for_logs",
+      "patterns": ["[Main] server ready", "[Main] client ready"],
+      "timeout": 120,
+      "poll": 3
+    },
+    { "op": "sleep", "seconds": 8, "why": "Let the Start() loops (Sparks, Gloomies) run long enough to throw" },
+    {
+      "op": "execute_luau",
+      "datamodel": "Server",
+      "label": "the garden is built",
+      "code": "return #workspace.Sparks:GetChildren() > 0 and #workspace.Gloomies:GetChildren() > 0 and #game:GetService('CollectionService'):GetTagged('CraftPoint') > 0",
+      "expect": "true"
+    },
+    {
+      "op": "collect_errors",
+      "fail_on_warnings_matching": ["^\\[Main\\]", "failed", "couldn't load", "doesn't exist"]
+    },
+    { "op": "stop_play" }
+  ],
+  "cleanup": [{ "op": "stop_play", "only_if_started": true }]
+}

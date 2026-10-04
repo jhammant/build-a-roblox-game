@@ -1,0 +1,19 @@
+# Place files: Studio saves these, and `rojo build` makes a fresh one. The code lives in src/.
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+sourcemap.json
+
+# Picker rounds: built pages and database dumps are rebuilt any time
+design/rounds/*/out/
+design/rounds/*/dump/
+
+# Never commit family voice recordings or keys
+recordings/
+*.key
+.env
+
+.DS_Store
+__pycache__/
+*.pyc

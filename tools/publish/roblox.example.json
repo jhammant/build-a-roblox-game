@@ -1,0 +1,12 @@
+{
+  "_about": "This shows what tools/roblox.json holds. `python3 tools/publish/publish.py setup` writes the real one for you. It holds ids only, so it's safe to commit. Never put the API key in it.",
+  "universeId": "<your game's Universe ID>",
+  "_universeId": "Creator Hub → Creations → hover over your game → ⋯ → Copy Universe ID",
+  "placeId": "<your start place's Place ID>",
+  "_placeId": "Creator Hub → your game → Places → click the start place: it's the number in the address (…/places/<id>/configure)",
+  "userId": "<your Roblox user id>",
+  "_userId": "Open your Roblox profile: it's the number in the address (roblox.com/users/<id>/profile)",
+  "groupId": "<only if a group owns the game; otherwise leave this line out>",
+  "keychainService": "<game-folder-name>-roblox-api-key",
+  "_keychainService": "The name your API key is saved under in the macOS Keychain"
+}

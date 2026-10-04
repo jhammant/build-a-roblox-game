@@ -1,0 +1,28 @@
+name: test
+
+# The kit's own tests: the picker, the Open Cloud tools and new-game.py. Standard library only, no network.
+# The template's Lune tests need Rokit's tools; run them locally with `cd template && lune run tests/run`.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Picker
+        run: python -m unittest discover -s picker/tests
+      - name: Publish tool
+        run: python -m unittest discover -s tools/publish/tests
+      - name: Upload tool
+        run: python -m unittest discover -s tools/upload/tests
+      - name: new-game.py and the skills
+        run: python -m unittest discover -s tests

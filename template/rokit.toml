@@ -1,0 +1,8 @@
+# The tools this game needs, pinned to exact versions. Rokit is a toolchain manager for Roblox projects.
+# Run `rokit install` in this folder to fetch them. More: https://github.com/rojo-rbx/rokit
+
+[tools]
+rojo = "rojo-rbx/rojo@7.7.1"
+selene = "Kampfkarren/selene@0.32.0"
+stylua = "JohnnyMorganz/StyLua@2.5.2"
+lune = "lune-org/lune@0.10.5"

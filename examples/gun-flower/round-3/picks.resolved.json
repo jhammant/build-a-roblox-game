@@ -1,0 +1,534 @@
+{
+  "round": "03-more",
+  "title": "More picks",
+  "game": "Gun Flower",
+  "complete": true,
+  "boards": [
+    {
+      "section": "guns",
+      "title": "New garden-tool guns",
+      "question": "Each one turns the colour of the flower powering it. Pick a look for each.",
+      "file": "01-guns.json",
+      "finished": true,
+      "note": "",
+      "at": 0,
+      "groups": [
+        {
+          "key": "RainbowHose",
+          "title": "Rainbow Hose",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "C",
+              "name": "Hose Bazooka",
+              "blurb": "A big shoulder hose-pipe for a huge beam.",
+              "spec": {
+                "fires": "hold to beam, 36 studs, 3 s tank then 1.2 s refill",
+                "body": "the flower's colour",
+                "fittings": "cream 255,244,230",
+                "nozzle": "yellow 255,212,71"
+              }
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "PetalSprinkler",
+          "title": "Petal Sprinkler",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "A",
+              "name": "Twirly Sprinkler",
+              "blurb": "A spinning three-arm lawn sprinkler on top.",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "SeedPopper",
+          "title": "Seed Popper",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "A",
+              "name": "Seed Spreader",
+              "blurb": "A push-cart spreader that flings seeds.",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "SnowGlobeLauncher",
+          "title": "Snow Globe Launcher",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "C",
+              "name": "Frosty Can",
+              "blurb": "An icy watering can with icicles.",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "HoneySquirter",
+          "title": "Honey Squirter",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "A",
+              "name": "Honey Pot",
+              "blurb": "A honey pot with a beehive dome on top.",
+              "spec": {
+                "fires": "sticky globs that slow a bad guy for 2 s",
+                "puddle": "4-stud radius for 3 s; players are never slowed",
+                "honey": "245,166,35",
+                "bee": "one friendly bee orbiting the dome"
+              }
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        }
+      ]
+    },
+    {
+      "section": "horse",
+      "title": "Horse designer",
+      "question": "Tap everything you want first; pick as many as you like in each row.",
+      "file": "02-horse.json",
+      "finished": true,
+      "note": "",
+      "at": 0,
+      "groups": [
+        {
+          "key": "Breeds",
+          "title": "Breeds",
+          "mode": "many",
+          "picked": [
+            {
+              "value": "Arabian",
+              "name": "Arabian",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Thoroughbred",
+              "name": "Thoroughbred",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Friesian",
+              "name": "Friesian",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Shire",
+              "name": "Shire",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Mustang",
+              "name": "Mustang",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Appaloosa",
+              "name": "Appaloosa",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Shetland",
+              "name": "Shetland",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Fjord",
+              "name": "Fjord",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Unicorn",
+              "name": "Unicorn",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Pegasus",
+              "name": "Pegasus",
+              "blurb": "",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "Patterns",
+          "title": "Coat patterns",
+          "mode": "many",
+          "picked": [
+            {
+              "value": "Solid",
+              "name": "Solid",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Dapple",
+              "name": "Dapple",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Pinto",
+              "name": "Pinto",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Appaloosa",
+              "name": "Spots",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Socks",
+              "name": "Socks",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Blaze",
+              "name": "Blaze",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Roan",
+              "name": "Roan",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Rainbow",
+              "name": "Rainbow",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Galaxy",
+              "name": "Galaxy",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Sparkle",
+              "name": "Sparkle",
+              "blurb": "",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "Manes",
+          "title": "Mane styles",
+          "mode": "many",
+          "picked": [
+            {
+              "value": "Flowing",
+              "name": "Flowing",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Braided",
+              "name": "Braided",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Curly",
+              "name": "Curly",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Hogged",
+              "name": "Short hogged",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "FlowerBraids",
+              "name": "Flower braids",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "RainbowStreak",
+              "name": "Rainbow streak",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "PomPomTail",
+              "name": "Pom-pom tail",
+              "blurb": "",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "Saddles",
+          "title": "Saddles",
+          "mode": "many",
+          "picked": [
+            {
+              "value": "Classic",
+              "name": "Classic",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Flower",
+              "name": "Flower",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Western",
+              "name": "Western",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Racing",
+              "name": "Racing",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Royal",
+              "name": "Royal velvet",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Cloud",
+              "name": "Cloud",
+              "blurb": "",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "Hats",
+          "title": "Horse hats",
+          "mode": "many",
+          "picked": [
+            {
+              "value": "TopHat",
+              "name": "Top hat",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "FlowerCrown",
+              "name": "Flower crown",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Cowboy",
+              "name": "Cowboy hat",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Party",
+              "name": "Party hat",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Tiara",
+              "name": "Tiara",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Bow",
+              "name": "Big bow",
+              "blurb": "",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "Wings",
+          "title": "Wing styles",
+          "mode": "many",
+          "picked": [
+            {
+              "value": "Feathered",
+              "name": "Feathered",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Butterfly",
+              "name": "Butterfly",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "FairyGlass",
+              "name": "Fairy glass",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Petal",
+              "name": "Petal",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "Crystal",
+              "name": "Crystal",
+              "blurb": "",
+              "spec": null
+            },
+            {
+              "value": "RainbowFeathers",
+              "name": "Rainbow feathers",
+              "blurb": "",
+              "spec": null
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        }
+      ]
+    },
+    {
+      "section": "plaza",
+      "title": "Portal plaza",
+      "question": "The plaza by spawn with an arch to every world.",
+      "file": "03-plaza.json",
+      "finished": true,
+      "note": "all of them",
+      "at": 0,
+      "groups": [
+        {
+          "key": "Plaza",
+          "title": "Portal plaza",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "A",
+              "name": "Fountain Ring",
+              "blurb": "A round plaza with arches in a ring around a fountain.",
+              "spec": {
+                "diameter_studs": 80,
+                "arch_slots": 8,
+                "arch_radius_studs": 34,
+                "centre": "fountain",
+                "paths": "6 wide, each with a stripe in its world's colour"
+              }
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        },
+        {
+          "key": "Arch",
+          "title": "Arch style",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "B",
+              "name": "Top-Hat Arch",
+              "blurb": "A giant top hat with the portal inside it!",
+              "spec": {
+                "style": "a giant magician's top hat with the portal inside",
+                "used_on": "the entrance arch and the sealed Mystery arch"
+              }
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        }
+      ]
+    },
+    {
+      "section": "chests",
+      "title": "Treasure chests",
+      "question": "Common, rare and epic chests.",
+      "file": "04-chests.json",
+      "finished": true,
+      "note": "",
+      "at": 0,
+      "groups": [
+        {
+          "key": "Chests",
+          "title": "Treasure chests",
+          "mode": "one",
+          "picked": [
+            {
+              "value": "B",
+              "name": "Garden Chests",
+              "blurb": "Pot, can, golden top hat; moss in the Marsh.",
+              "spec": {
+                "common": "flower-pot chest, terracotta 224,122,79",
+                "rare": "watering-can chest, can blue 79,179,255",
+                "epic": "golden top-hat chest",
+                "opening": "hold 0.5 s; each player opens each chest once per respawn"
+              }
+            }
+          ],
+          "tweaks": {},
+          "unknown": [],
+          "extra": null
+        }
+      ]
+    }
+  ]
+}

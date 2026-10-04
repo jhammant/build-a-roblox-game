@@ -1,0 +1,53 @@
+{
+	"name": "SparkGarden",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Shared": {
+				"$path": "src/shared"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "src/server"
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "src/client"
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"$properties": {
+				"Gravity": 196.2
+			}
+		},
+		"TextChatService": {
+			"$className": "TextChatService",
+			"$properties": {
+				"ChatVersion": "TextChatService"
+			},
+			"ChatWindowConfiguration": {
+				"$className": "ChatWindowConfiguration",
+				"$properties": {
+					"Enabled": false
+				}
+			},
+			"ChatInputBarConfiguration": {
+				"$className": "ChatInputBarConfiguration",
+				"$properties": {
+					"Enabled": false
+				}
+			},
+			"BubbleChatConfiguration": {
+				"$className": "BubbleChatConfiguration",
+				"$properties": {
+					"Enabled": false
+				}
+			}
+		}
+	}
+}

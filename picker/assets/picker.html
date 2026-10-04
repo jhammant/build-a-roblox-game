@@ -1,0 +1,36 @@
+<style>{{CSS}}</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><h1>{{TITLE}}</h1></div>
+    <div class="progress">
+      <ol class="dots" aria-label="Boards finished">{{DOTS}}</ol>
+      <span id="count" aria-live="polite"></span>
+    </div>
+    <button type="button" class="sound" id="sound" aria-pressed="true">Sound on</button>
+  </header>
+
+  <div class="intro">
+    <p class="game">{{GAME}}</p>
+    <p>{{INTRO}}</p>
+    <p id="status" data-mode="connecting">Getting ready…</p>
+  </div>
+  <nav class="toc" aria-label="Jump to a board">{{TOC}}</nav>
+
+  <main class="boards">{{SECTIONS}}</main>
+
+  <div class="done-banner" id="done" hidden>
+    <h2>Everything picked!</h2>
+    <p>{{DONE}}</p>
+  </div>
+
+  <section class="summary" aria-labelledby="h-summary">
+    <h2 id="h-summary">Your picks</h2>
+    <p id="summary">Nothing picked yet.</p>
+    <button type="button" class="copy" id="copy">Copy picks</button>
+  </section>
+</div>
+<div id="confetti" aria-hidden="true"></div>
+
+<script id="picker-config" type="application/json">{{CONFIG}}</script>
+<script>{{JS}}</script>

@@ -1,0 +1,46 @@
+{
+  "title": "The Gloomies",
+  "question": "What do the grumpy things look like?",
+  "groups": [
+    {
+      "key": "Look",
+      "title": "Gloomy",
+      "mode": "one",
+      "subtitle": "Zap one and it cheers up and drops Sparks.",
+      "options": [
+        {
+          "value": "A",
+          "name": "Rain Cloud",
+          "blurb": "A grumpy little cloud that drizzles on you.",
+          "svg": "<svg viewBox='0 0 240 180' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' fill='#E6F4FF'/><circle cx='88' cy='88' r='35' fill='#2B1B4A'/><circle cx='126' cy='66' r='43' fill='#2B1B4A'/><circle cx='166' cy='88' r='35' fill='#2B1B4A'/><rect x='61' y='79' width='134' height='54' rx='27.0' fill='#2B1B4A'/><circle cx='88' cy='88' r='30' fill='#AEB6D3'/><circle cx='126' cy='66' r='38' fill='#AEB6D3'/><circle cx='166' cy='88' r='30' fill='#AEB6D3'/><rect x='66' y='84' width='124' height='44' rx='22.0' fill='#AEB6D3'/><circle cx='108' cy='92' r='5' fill='#2B1B4A'/><circle cx='144' cy='92' r='5' fill='#2B1B4A'/><path d='M99 77 L115 83' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M153 77 L137 83' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M111 118 Q126 106 141 118' fill='none' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M92 138 q-9 14 0 18 q9 -4 0 -18 z' fill='#33B5FF' stroke='#2B1B4A' stroke-width='3'/><path d='M128 148 q-9 14 0 18 q9 -4 0 -18 z' fill='#33B5FF' stroke='#2B1B4A' stroke-width='3'/><path d='M164 138 q-9 14 0 18 q9 -4 0 -18 z' fill='#33B5FF' stroke='#2B1B4A' stroke-width='3'/></svg>",
+          "spec": {
+            "body": "#AEB6D3",
+            "drops": "#33B5FF",
+            "moves": "floats"
+          }
+        },
+        {
+          "value": "B",
+          "name": "Grumpy Blob",
+          "blurb": "A wobbly purple blob in a bad mood.",
+          "svg": "<svg viewBox='0 0 240 180' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' fill='#F1E8FF'/><path d='M58 156 C46 96 84 46 124 48 C170 50 198 96 186 156 Z' fill='#A877FF' stroke='#2B1B4A' stroke-width='5' stroke-linejoin='round'/><path d='M84 156 q8 -10 16 0 M140 156 q8 -10 16 0' fill='none' stroke='#2B1B4A' stroke-width='5'/><circle cx='102' cy='98' r='5' fill='#2B1B4A'/><circle cx='142' cy='98' r='5' fill='#2B1B4A'/><path d='M93 83 L109 89' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M151 83 L135 89' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M107 124 Q122 112 137 124' fill='none' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/></svg>",
+          "spec": {
+            "body": "#A877FF",
+            "moves": "wobbles"
+          }
+        },
+        {
+          "value": "C",
+          "name": "Sulky Sock",
+          "blurb": "A lost sock. It's very cross about it.",
+          "svg": "<svg viewBox='0 0 240 180' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' fill='#EFFFF2'/><path d='M98 26 L150 26 L150 104 C150 126 166 134 186 134 C208 134 208 166 186 168 L122 168 C98 168 92 150 98 128 Z' fill='#3FD46B'/><rect x='98' y='40' width='52' height='12' fill='#FFD447'/><rect x='98' y='62' width='52' height='12' fill='#FFD447'/><path d='M98 26 L150 26 L150 104 C150 126 166 134 186 134 C208 134 208 166 186 168 L122 168 C98 168 92 150 98 128 Z' fill='none' stroke='#2B1B4A' stroke-width='5' stroke-linejoin='round'/><rect x='92' y='14' width='64' height='16' rx='8' fill='#FFFFFF' stroke='#2B1B4A' stroke-width='5'/><circle cx='111' cy='98' r='5' fill='#2B1B4A'/><circle cx='137' cy='98' r='5' fill='#2B1B4A'/><path d='M102 83 L118 89' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M146 83 L130 89' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/><path d='M109 124 Q124 112 139 124' fill='none' stroke='#2B1B4A' stroke-width='5' stroke-linecap='round'/></svg>",
+          "spec": {
+            "body": "#3FD46B",
+            "stripes": "#FFD447",
+            "moves": "hops"
+          }
+        }
+      ]
+    }
+  ]
+}

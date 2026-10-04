@@ -1,0 +1,94 @@
+{
+  "collection": "morepicks",
+  "docs": {
+    "guns": {
+      "picks": {
+        "RainbowHose": "C",
+        "PetalSprinkler": "A",
+        "SeedPopper": "A",
+        "SnowGlobeLauncher": "C",
+        "HoneySquirter": "A"
+      },
+      "note": "",
+      "at": 0
+    },
+    "horse": {
+      "picks": {
+        "Breeds": [
+          "Arabian",
+          "Thoroughbred",
+          "Friesian",
+          "Shire",
+          "Mustang",
+          "Appaloosa",
+          "Shetland",
+          "Fjord",
+          "Unicorn",
+          "Pegasus"
+        ],
+        "Patterns": [
+          "Solid",
+          "Dapple",
+          "Pinto",
+          "Appaloosa",
+          "Socks",
+          "Blaze",
+          "Roan",
+          "Rainbow",
+          "Galaxy",
+          "Sparkle"
+        ],
+        "Manes": [
+          "Flowing",
+          "Braided",
+          "Curly",
+          "Hogged",
+          "FlowerBraids",
+          "RainbowStreak",
+          "PomPomTail"
+        ],
+        "Saddles": [
+          "Classic",
+          "Flower",
+          "Western",
+          "Racing",
+          "Royal",
+          "Cloud"
+        ],
+        "Hats": [
+          "TopHat",
+          "FlowerCrown",
+          "Cowboy",
+          "Party",
+          "Tiara",
+          "Bow"
+        ],
+        "Wings": [
+          "Feathered",
+          "Butterfly",
+          "FairyGlass",
+          "Petal",
+          "Crystal",
+          "RainbowFeathers"
+        ]
+      },
+      "note": "",
+      "at": 0
+    },
+    "plaza": {
+      "picks": {
+        "Plaza": "A",
+        "Arch": "B"
+      },
+      "note": "all of them",
+      "at": 0
+    },
+    "chests": {
+      "picks": {
+        "Chests": "B"
+      },
+      "note": "",
+      "at": 0
+    }
+  }
+}

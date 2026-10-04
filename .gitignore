@@ -1,0 +1,19 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+/dist/
+/build/
+scratchpads/
+
+# Picker sample: generated pages and test picks
+picker/sample/out/
+picker/sample/picks.json
+picker/sample/PICKS.md
+picker/sample/picks.resolved.json
+
+# Python caches inside tools
+tools/**/__pycache__/
