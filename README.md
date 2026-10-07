@@ -97,7 +97,7 @@ cd template && lune run tests/run && selene src && stylua --check src tests
 
 ## Licence and trademarks
 
-MIT, see [LICENSE](LICENSE).
+The code is MIT ([LICENSE](LICENSE)). The guide and the art are CC BY 4.0 ([LICENSE-DOCS.md](LICENSE-DOCS.md)): share and adapt them freely, with credit.
 
 This is an independent project. It isn't made, endorsed or sponsored by Roblox Corporation or Anthropic. Roblox is a
 trademark of Roblox Corporation.
